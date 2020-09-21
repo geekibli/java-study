@@ -8,15 +8,13 @@
 
 
 
-
 参考资料
-> [1、Java多线程中join方法的理解](https://www.iteye.com/blog/uule-1101994)
-> [2、Thread.join的作用和原理](https://blog.csdn.net/weichi7549/article/details/108449618)
-> [3、Thread.join的作用和原理](https://www.jianshu.com/p/fc51be7e5bc0)
+> [1、Java多线程中join方法的理解](https://www.iteye.com/blog/uule-1101994)  
+> [2、Thread.join的作用和原理](https://blog.csdn.net/weichi7549/article/details/108449618)   
+> [3、Thread.join的作用和原理](https://www.jianshu.com/p/fc51be7e5bc0)  
 
 
 ## join方法
-
 
 ```
 join重载方法
