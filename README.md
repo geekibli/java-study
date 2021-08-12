@@ -1,55 +1,72 @@
+# 前言
 
-> 以下是个人Java后端学习笔记，本着学习交流的态度，展示在此与大家一同学习进步！
+📒 📒 维护此成长路线的原因很简单，如下两点👇
+
+第一，本人喜欢写写博客，整理一些技术知识点，不但可以加深自己的理解，在编写博客的时候还可以锻炼自己的写作能力和表达能力。
+
+第二，知识体系化，把技术栈的知识架构体系化，方便我们有一个全局的认知，也会增强我们对每个部分的理解，每部分之间的联系会看的更加清楚，因为有很多东西道理都是相同的。
+
+文章基本都是自己整理的，也有借鉴别人的地方，都已经加了声明，欢迎大家一起学习，如果发现有**BUG**，望不吝指教！🙏
 
 
 
-### Http
+下面分了几个大的模块 一起来看看吧
 
-- [Http状态码及含义](https://geekibli.github.io/wiki/Http状态码及含义/)
+# 编程语言
 
-- [https协议](https://geekibli.github.io/wiki/https协议/)
+编程语言是我们程序员吃饭的家伙。后端现在比较流行的语言有C语言，C++，Java，Golang，Python等。语言的语法稍有不同，但是原理都是相同的，这些高级语言都是和底层语言或者说是和机器沟通的，只要掌握好任意一门语言，其他的语言学习来会很简单。
 
-### Java
+## 1. Java语言
 
-- [JVM-Xms,Xmx和Xss](https://geekibli.github.io/wiki/JVM-Xms-Xmx和Xss/)
+### 1.1 Java基础
 
-- [Java-NIO](https://geekibli.github.io/wiki/Java-NIO/)
+[Java-为什么禁止把SimpleDateFormat定义成static变量?](https://geekibli.github.io/wiki/Java-为什么禁止把SimpleDateFormat定义成static变量/)
 
-- [Java-NIO核心组件--buffer](https://geekibli.github.io/wiki/Java-NIO核心组件-buffer/)
+[Java反射](https://geekibli.github.io/wiki/Java反射/)
 
-- [Java-NIO核心组件--channel](https://geekibli.github.io/wiki/Java-NIO核心组件-channel/)
+[Java泛型概述](https://geekibli.github.io/wiki/Java泛型/)
 
-- [Java-NIO核心组件--selector](https://geekibli.github.io/wiki/Java-NIO核心组件-selector/)
+[Java注解概述](https://geekibli.github.io/wiki/Java注解/)
 
-- [Java-为什么禁止把SimpleDateFormat定义成static变量?](https://geekibli.github.io/wiki/Java-为什么禁止把SimpleDateFormat定义成static变量/)
+[hutool导出excel 快速使用](https://geekibli.github.io/wiki/hutool导出excel/)
 
-- [Java-传统的BIO](https://geekibli.github.io/wiki/Java-传统的BIO/)
+[为什么禁止开发人员修改 serialVersionUID 字段的值?](https://geekibli.github.io/wiki/为什么禁止开发人员修改-serialVersionUID-字段的值/)
 
-- [Java反射](https://geekibli.github.io/wiki/Java反射/)
+[基础面试题目](https://geekibli.github.io/wiki/基础面试题目/)
 
-- [Java泛型](https://geekibli.github.io/wiki/Java泛型/)
+[面向对象特征](https://geekibli.github.io/wiki/面向对象特征/)
 
-- [Java注解](https://geekibli.github.io/wiki/Java注解/)
+[Java位运算你知道多少](https://geekibli.github.io/wiki/Java位运算/)
 
-- [hutool导出excel](https://geekibli.github.io/wiki/hutool导出excel/)
+### 1.2 Java集合
 
-- [netty实现简易RPC调用](https://geekibli.github.io/wiki/netty实现简易RPC调用/)
+[极尽HashMap底层原理](https://geekibli.github.io/wiki/极尽HashMap底层原理/)
 
-- [netty实现简易tomcat](https://geekibli.github.io/wiki/netty实现简易tomcat/)
+### 1.3 Java IO
 
-- [为什么禁止开发人员修改 serialVersionUID 字段的值?](https://geekibli.github.io/wiki/为什么禁止开发人员修改-serialVersionUID-字段的值/)
+[Java-NIO技术概述](https://geekibli.github.io/wiki/Java-NIO/)
 
-- [基于BIO实现简易tomcat](https://geekibli.github.io/wiki/基于BIO实现简易tomcat/)
+[Java-NIO核心组件--buffer](https://geekibli.github.io/wiki/Java-NIO核心组件-buffer/)
 
-- [基础面试题目](https://geekibli.github.io/wiki/基础面试题目/)
+[Java-NIO核心组件--channel](https://geekibli.github.io/wiki/Java-NIO核心组件-channel/)
 
-- [面向对象特征](https://geekibli.github.io/wiki/面向对象特征/)
+[Java-NIO核心组件--selector](https://geekibli.github.io/wiki/Java-NIO核心组件-selector/)
 
-- [Java位运算](https://geekibli.github.io/wiki/Java位运算/)
+[Java-传统的BIO](https://geekibli.github.io/wiki/Java-传统的BIO/)
 
-- [极尽HashMap底层原理](https://geekibli.github.io/wiki/极尽HashMap底层原理/)
+[netty实现简易RPC调用](https://geekibli.github.io/wiki/netty实现简易RPC调用/)
 
-### JVM
+[netty实现简易tomcat](https://geekibli.github.io/wiki/netty实现简易tomcat/)
+
+[基于BIO实现简易tomcat](https://geekibli.github.io/wiki/基于BIO实现简易tomcat/)
+
+### 1.4 多线程与并发
+
+
+
+### 1.5 深入理解虚拟机
+
+[JVM-Xms,Xmx和Xss](https://geekibli.github.io/wiki/JVM-Xms-Xmx和Xss/)
 
 - [JVM-Xms,Xmx和Xss](https://geekibli.github.io/wiki/JVM-Xms-Xmx和Xss/)
 
@@ -76,6 +93,14 @@
 - [Java内存模型](https://geekibli.github.io/wiki/Java内存模型/)
 
 - [JVM-垃圾收集器](https://geekibli.github.io/wiki/JVM-垃圾收集器/)
+
+### Http
+
+- [Http状态码及含义](https://geekibli.github.io/wiki/Http状态码及含义/)
+
+- [https协议](https://geekibli.github.io/wiki/https协议/)
+
+
 
 ### 多线程
 
