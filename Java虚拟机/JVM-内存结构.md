@@ -7,7 +7,6 @@ categories:
 ---
 
 
-
 作为程序员，最常接触到Java虚拟机的部分应该是内存结构这一部分了，同样这一部分的内容很多，面试也是最常被问到的。虽然JDK已经发布了16版本，但是国内大部分企业都还在使用JDK8。 今天学习一下虚拟机的运行时数据区的组成和各个组件的功能。
 
 <img src="https://xcu-oss.oss-cn-beijing.aliyuncs.com/image/gao/image-20210730144621195.png" alt="image-20210730144621195" style="zoom:50%;" />
@@ -121,6 +120,39 @@ Java虚拟机规范堆方法区的限制非常宽松，除了和Java堆一样不
 
 
 
+
+
+## 扩展
+
+**下面几种不同的变量的存放位置分别是什么？**
+
+```
+public class StaticObjTest {
+static class Test{
+// 静态变量
+// 一个java.lang.Class类型的对象实例引用了此变量
+static ObjectHolder staticObj = new ObjectHolder();
+// 实例变量
+ObjectHolder instanceObj = new ObjectHolder();
+void foo() {
+// 局部变量
+ObjectHolder localObj = new ObjectHolder()();
+System.out.println("done");
+}
+}
+private static class ObjectHolder{
+}
+public static void main(String[] args) {
+Test test = new StaticObjTest.Test();
+test.foo();
+}
+}
+```
+
+以上代码中，静态变量staticObj随着Test的类型信息存放在方法区，  
+实例变量instanceObj随着Test的对象实例存放在堆区，  
+局部变量localObj则是存放在foo()方法栈帧的局部变量表中。  
+**三个变量引用对应的对象实体都是在堆空间**。  
 
 ## 参考资料
 
