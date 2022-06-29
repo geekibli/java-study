@@ -245,6 +245,16 @@
 [分布式-一致性哈希算法](https://geekibli.github.io/wiki/分布式-一致性哈希算法/)  
 [分布式-秒杀系统设计](https://geekibli.github.io/wiki/分布式-秒杀系统设计/)  
 
+## 分布式事务
+[什么是事务？](https://github.com/geekibli/distributed-study/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1/1.%E4%BB%80%E4%B9%88%E6%98%AF%E4%BA%8B%E5%8A%A1.md)
+[分布式事务解决方案-2PC（两阶段提交）](https://github.com/geekibli/distributed-study/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1/2.%E4%B8%A4%E9%98%B6%E6%AE%B5%E6%8F%90%E4%BA%A42pc%E6%96%B9%E6%A1%88.md)
+[分布式事务解决方案-XA](https://github.com/geekibli/distributed-study/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1/3.XA%E6%96%B9%E6%A1%88.md)
+[Seata方案解决分布式事务](https://github.com/geekibli/distributed-study/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1/4.Seata%E6%96%B9%E6%A1%88.md)
+[Seata两阶段提交方案执行流程](https://github.com/geekibli/distributed-study/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1/5.Seata%E4%B8%A4%E9%98%B6%E6%AE%B5%E6%8F%90%E4%BA%A4%E6%96%B9%E6%A1%88%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B.md)
+[分布式事务TCC解决方案](https://github.com/geekibli/distributed-study/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1/6.TCC%E4%BA%8B%E5%8A%A1%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.md)
+[可靠消息最终一致性](https://github.com/geekibli/distributed-study/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1/7.%E5%8F%AF%E9%9D%A0%E6%B6%88%E6%81%AF%E6%9C%80%E7%BB%88%E4%B8%80%E8%87%B4%E6%80%A7%E6%96%B9%E6%A1%88.md)
+[最大努力通知方案](https://github.com/geekibli/distributed-study/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1/8.%E6%9C%80%E5%A4%A7%E5%8A%AA%E5%8A%9B%E9%80%9A%E7%9F%A5%E6%96%B9%E6%A1%88.md)
+
 
 # 🍎微服务技术体系
 
