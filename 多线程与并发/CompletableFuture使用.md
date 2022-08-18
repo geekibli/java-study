@@ -1,5 +1,6 @@
 # CompletableFuture的使用
 
+- [异步编程利器：CompletableFuture详解](https://zhuanlan.zhihu.com/p/378405637)
 
 ```java
 public class CompleteFutureTest {
