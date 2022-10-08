@@ -81,4 +81,5 @@ public class SqlSessionFactoryBean implements FactoryBean<SqlSessionFactory>, In
 
 
 ## 参考资料
-【1】[MyBatis的工作原理 C语言网](http://c.biancheng.net/view/4304.html)  
+【1】[MyBatis的工作原理 C语言网](http://c.biancheng.net/view/4304.html)    
+【2】[MyBatis 的执行流程，写得也太全了吧！](https://mp.weixin.qq.com/s/Su6OdULXBwEtN5QF4_qNvA)  

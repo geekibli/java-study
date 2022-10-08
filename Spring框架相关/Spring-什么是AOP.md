@@ -117,7 +117,8 @@ public static Object newProxyInstance(ClassLoader loader,
 
 
 
-[Spring AOP就是这么简单](https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&mid=2247483954&idx=1&sn=b34e385ed716edf6f58998ec329f9867&chksm=ebd74333dca0ca257a77c02ab458300ef982adff3cf37eb6d8d2f985f11df5cc07ef17f659d4&scene=21###wechat_redirect)
+[Spring AOP就是这么简单](https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&mid=2247483954&idx=1&sn=b34e385ed716edf6f58998ec329f9867&chksm=ebd74333dca0ca257a77c02ab458300ef982adff3cf37eb6d8d2f985f11df5cc07ef17f659d4&scene=21###wechat_redirect)  
 
-[三歪红着眼睛总结了Spring知识点](https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&mid=2247487013&idx=1&sn=f0d8c292738eb49bcd09cb2f6458dc69&chksm=ebd74f24dca0c632fa3ef8f205a2dd5c96531f78a68eae805e15b84de0b59774196a188aed14&token=306734573&lang=zh_CN#rd)
+[三歪红着眼睛总结了Spring知识点](https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&mid=2247487013&idx=1&sn=f0d8c292738eb49bcd09cb2f6458dc69&chksm=ebd74f24dca0c632fa3ef8f205a2dd5c96531f78a68eae805e15b84de0b59774196a188aed14&token=306734573&lang=zh_CN#rd)  
 
+[Spring AOP详解之面向切面编程](https://www.nowcoder.com/discuss/1017893?type=0&order=7&pos=16&page=1&source_id=discuss_center_0_nctrack&channel=1009&ncTraceId=c908f362090441b78db28d23256c62d3.429.16652137146480880&gio_id=A54E2D9FEA176F3D105B72CB5F8AD026-1665213715795)  
