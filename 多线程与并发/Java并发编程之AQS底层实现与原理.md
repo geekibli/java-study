@@ -150,7 +150,7 @@ ReentrantLock是AQS独占模式的经典实现，ReentrantLock在构造实例是
 
 ```java
  /**
-     * Creates an instance of {@code ReentrantLock} with the
+     * Creates an instance of {@code ReentrantLock.md} with the
      * given fairness policy.
      *
      * @param fair {@code true} if this lock should use a fair ordering policy
@@ -185,7 +185,7 @@ protected boolean tryAcquire(int arg) {
 ### nonfairTryAcquire非公平锁获取许可
 
 ```java
-// ReentrantLock 非公平锁进来就开始抢占锁，体现非公平性
+// ReentrantLock.md 非公平锁进来就开始抢占锁，体现非公平性
 final void lock() {
             if (compareAndSetState(0, 1))
                 setExclusiveOwnerThread(Thread.currentThread());
